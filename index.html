@@ -6,7 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mago Advinhação</title>
     <style>
+        body{
+            background-color: rgb(11, 1, 95);
+            
+        }
 
+        div{
+            background-color: rgb(26, 26, 148);
+            border-radius: 20px;
+        }
     </style>
 </head>
 
@@ -24,8 +32,34 @@
     <script>
         //Função que será chamada no evento de click do botão
         function mago(){
-            alert('Fui chamado pela função mago, deu certo!')
+            alert('Olá eu sou o Mago da Adivinhação. siga as instruções para que eu consiga adivinhar seu número')
+
+            let desejado = Number(prompt("Digite o valor que você quer que aparece no final"));
+
+            let multiplicado = desejado * 2
+
+            alert('Agora escolha outro número e anote ele na calculadora')
+
+            alert('Pegue o número que você anotou e multiplique ele por 2')
+
+            alert('Soma o número que você muliplicou por ' + multiplicado)
+
+            alert('Agora pegue o valor da soma e divida ele por 2')
+
+            alert('Para finalizar subtraia o resultado da divisão pelo número que você pensou ')
+
+            alert('O número que você escolheu é ' + desejado)
+
+
+
+
+
+
+
+
+
         };
+
     </script>
     
 </body>

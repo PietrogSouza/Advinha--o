@@ -1,0 +1,9 @@
+Lógica
+
+1) peça um número ao usuário q seja o número que ele quer que apareça no final
+2) faça o computador multiplicar por 2 (final x 2)
+3) peça para o usuário pensar em outro número e colocar ele em alguma calculadora ou anotar 
+4) agora peça para o usuário fazer o número (pensado x 2)
+5) peça para o usuário somar o número ((final x 2) + (penado x 2))
+6) agora peça para ele dividir o resultado da soma por 2
+7) para finalizar peça ao usuário para subtrair o resultado da divisão e pelo número pensado (resultado - pensado)
